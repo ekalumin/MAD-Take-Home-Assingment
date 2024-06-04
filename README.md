@@ -9,3 +9,13 @@ Weather Pro is an Android application that provides more accurate weather foreca
 fingertips is an essential fact for everyone. When we plan our daily routines or simply decide what we wear, reliable weather reporting can make a significant difference. 
 This application is an innovative Weather Reporting Android Application that comes into play.  
 
+## Installation
+
+```kotlin
+implementation("com.android.volley:volley:1.2.1")
+implementation ("com.google.android.gms:play-services-location:18.0.0")
+```
+
+These are the dependencies that are used for the development of this application. 😇
+
+
