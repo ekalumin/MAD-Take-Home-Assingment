@@ -26,9 +26,6 @@ These are the dependencies that are used for the development of this application
 
 ---
 
-## Screenshots with Quiz
-
-
 ## Documentation
 
 Please visit the Open Weather Map website for reference. 
