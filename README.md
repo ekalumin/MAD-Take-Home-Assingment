@@ -1,2 +1,10 @@
-# MAD-Take-Home-Assingment
-ITE 2152 - Mobile Application Development Assingment - E2145071
+![ic_launcher-ezgif com-webp-to-png-converter](https://github.com/ekalumin/MAD-Take-Home-Assingment/assets/52271820/36cc4074-a7fb-4785-8e5d-19fabd57a0ef)
+
+
+# MAD-Take-Home-Assignment
+ITE 2152 - Mobile Application Development Assignment - E2145071
+
+**Weather Pro**
+Weather Pro is an Android application that provides more accurate weather forecasts for end users. In today's busy life schedules, having accurate and up-to-date weather information at our fingertips is an essential fact for everyone. When we plan our daily routines or simply decide what we wear, reliable weather reporting can make a significant difference. This application is an innovative Weather Reporting Android Application that comes into play.  
+
+
