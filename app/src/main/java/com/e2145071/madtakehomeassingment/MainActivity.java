@@ -42,6 +42,7 @@ import java.util.Date;
 import java.text.DecimalFormat;
 import java.util.List;
 import java.util.Locale;
+import java.util.Timer;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -66,6 +67,8 @@ public class MainActivity extends AppCompatActivity {
     TextView latitude, longitude, address;
     Double d_lat, d_long;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,8 +78,13 @@ public class MainActivity extends AppCompatActivity {
         result = findViewById(R.id.result);
         sysTime = findViewById(R.id.sysTime);
 
-        Date currentTime = Calendar.getInstance().getTime();
-        sysTime.setText(currentTime.toString().trim());
+//        Date currentTime = Calendar.getInstance().getTime();
+//        sysTime.setText(currentTime.toString().trim());
+
+        Runnable runnable = new CountDownRunner();
+        Thread myThread = new Thread(runnable);
+        myThread.start();
+
 
         latitude = findViewById(R.id.latitude);
         longitude = findViewById(R.id.longitude);
@@ -87,6 +95,32 @@ public class MainActivity extends AppCompatActivity {
         checkLocationPermission();
         init();
     }
+
+    public void doWork() {
+        runOnUiThread(() -> {
+            try{
+                TextView txtCurrentTime= (TextView)findViewById(R.id.sysTime);
+                Date currentTime = Calendar.getInstance().getTime();
+                txtCurrentTime.setText(currentTime.toString());
+            }catch (Exception e) {}
+        });
+    }
+
+    class CountDownRunner implements Runnable{
+        // @Override
+        public void run() {
+            while(!Thread.currentThread().isInterrupted()){
+                try {
+                    doWork();
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                }catch(Exception e){
+                }
+            }
+        }
+    }
+
 
     @Override
     protected void onDestroy() {
