@@ -27,9 +27,9 @@ These are the dependencies that are used for the development of this application
 
 ## Documentation
 
-Please visit [documentation] website for reference
-
-[documentation]: https://home.openweathermap.org/
-[documentation]: https://console.cloud.google.com/apis/
+Please visit the Open Weather Map website for reference. 
+https://home.openweathermap.org/
+Please visit the Google API website for reference.
+https://console.cloud.google.com/apis/
 
 ---
