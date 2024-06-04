@@ -166,18 +166,41 @@
     </LinearLayout>
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_marginTop="60sp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="E2145071"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="University of Moratuwa"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="10dp"
         android:id="@+id/sysTime"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="20sp"
         android:text="ddfsfsfsfsfs"
         android:gravity="center"
         android:textColor="#F3D849"
         android:textSize="18sp"
-        android:textStyle="italic"
+        android:textStyle="normal"
         />
 
 
