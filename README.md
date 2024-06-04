@@ -22,6 +22,8 @@ These are the dependencies that are used for the development of this application
 
 ![App_launch](https://github.com/ekalumin/MAD-Take-Home-Assingment/assets/52271820/a5d5896d-58f2-4997-adda-3e6381c38cb8)
 ![App](https://github.com/ekalumin/MAD-Take-Home-Assingment/assets/52271820/2bb32fef-aecf-47c7-9b75-5e5dc6c0df27)
+![err](https://github.com/ekalumin/MAD-Take-Home-Assingment/assets/52271820/be133426-aa06-4086-811d-c2e3cef849d8)
+
 
 ---
 
